@@ -8,7 +8,7 @@ class App extends React.Component{
     super()
     this.state = {
       todos:[
-        {}
+        {id:1,content:"have a drink"}
       ]
     }
     this.addTodo=this.addTodo.bind(this);
